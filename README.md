@@ -1,2 +1,2 @@
 # Random-Javascript
-Javascript projects for practice
+Javascript project for practice
