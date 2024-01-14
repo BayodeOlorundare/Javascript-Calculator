@@ -7,7 +7,6 @@ function clearAnswer() {
 	try {   
 	    answerElement.value = '';
         } catch (error) {
-	    console.error('Error evaluating expression:', error);
             answerElement.value = 'Error';
         }
 	var div = document.getElementById('greeting');
@@ -25,7 +24,6 @@ function calculateResult() {
         try {
             answerElement.value = eval(answerElement.value);
         } catch (error) {
-	    console.error('Error evaluating expression:', error);
             answerElement.value = 'Error';
         }
 	var div = document.getElementById('greeting');
