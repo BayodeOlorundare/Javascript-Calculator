@@ -9,12 +9,12 @@
   color: hsl(202, 11%, 29%);
 }
 .calculator__output {
-  background: hsl(207, 19%, 61%); /* Change the background to a dark gray */
+  background: hsl(207, 19%, 61%);
   font-size: 4.2rem;
   padding-block-start: 3rem;
   padding-block-end: 0.5rem;
-  padding-inline-end: 1.25rem;
-  text-align: end;
+  max-width: 345px;
+  text-align: right;
 }
 .calculator__keys {
   display: grid;
@@ -35,7 +35,7 @@
   /* Playful Styles */
   inline-size: 70px;
   block-size: 70px;
-  margin: 0.25rem;
+  margin: 0.46rem;
   border-radius: 40px;
 }
 .calculator__key:active,
