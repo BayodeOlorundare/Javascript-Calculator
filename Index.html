@@ -19,28 +19,28 @@
 					<input type="text" name="answer"/>
 					</br>
 					
-					<input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
-					<input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
-					<input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
-					<input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+					<input type="button" value=" 1 " onclick="appendToAnswer('1')" />
+					<input type="button" value=" 2 " onclick="appendToAnswer('2')" />
+					<input type="button" value=" 3 " onclick="appendToAnswer('3')" />
+					<input type="button" value=" + " onclick="appendToAnswer('+')" />
 					</br>
 					
-					<input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
-					<input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
-					<input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
-					<input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+					<input type="button" value=" 4 " onclick="appendToAnswer('4')" />
+					<input type="button" value=" 5 " onclick="appendToAnswer('5')" />
+					<input type="button" value=" 6 " onclick="appendToAnswer('6')" />
+					<input type="button" value=" - " onclick="appendToAnswer('-')" />
 					</br>
 					
-					<input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
-					<input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
-					<input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
-					<input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+					<input type="button" value=" 7 " onclick="appendToAnswer('7')" />
+					<input type="button" value=" 8 " onclick="appendToAnswer('8')" />
+					<input type="button" value=" 9 " onclick="appendToAnswer('9')" />
+					<input type="button" value=" x " onclick="appendToAnswer('*')" />
 					</br>
 					
-					<input id="clear" type="button" value=" c " onclick="document.calculator.answer.value = ''" />
-					<input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
-					<input id="show" type="button" value=" = " onclick="document.calculator.answer.value = eval(calculator.answer.value)" />
-					<input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+					<input id="clear" type="button" value=" c " onclick="clearAnswer()" />
+					<input type="button" value=" 0 " onclick="appendToAnswer('0')" />
+					<input id="show" type="button" value=" = " onclick="calculateResult()" />
+					<input type="button" value=" / " onclick="appendToAnswer('/')" />
 					</br>					
 				</form>
 			</div>
