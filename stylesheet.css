@@ -24,19 +24,19 @@
   padding: 0.5rem;
 }
 .calculator__key {
-  background: hsl(206, 14%, 41%); /* Change the keys to a darker gray */
-  color: hsl(255, 100%, 100%); /* Change the text color to white */
-  border: none;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
-  padding-inline-end: 1.25rem;
-  padding-inline-start: 1.25rem;
-  font-size: 1.5rem;
-  /* Playful Styles */
-  inline-size: 70px;
-  block-size: 70px;
-  margin: 0.46rem;
-  border-radius: 40px;
+    background: hsl(206, 14%, 41%);
+    color: hsl(255, 100%, 100%);
+    border: none;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    padding-inline-end: 1rem;
+    padding-inline-start: 1rem;
+    font-size: 1.4rem;
+    inline-size: 70px;
+    block-size: 70px;
+    margin: 0.25rem;
+    border-radius: 40px;
+    text-align: center;
 }
 .calculator__key:active,
 .calculator__key:focus {
